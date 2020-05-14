@@ -22,7 +22,8 @@ try {
 module.exports = {
   entry: {
     main: __dirname + '/src/js/main.js',
-    home: __dirname + '/src/scss/home.scss'
+    atf: __dirname + '/src/scss/atf.scss',
+    all: __dirname + '/src/scss/all.scss'
   },
   output: {
     path: __dirname + '/dist/js',
