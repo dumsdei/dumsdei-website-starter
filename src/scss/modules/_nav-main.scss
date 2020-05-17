@@ -1,0 +1,25 @@
+.nav-main-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  // clip: rect(0, auto, auto, 0);
+  clip: auto;
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%)
+}
+
+.nav-main {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  .link-home {
+    display: inline-block;
+    height: 60px;
+    width: 34.5px;
+
+    svg {
+      height: inherit;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@mixin section-colors( $color ) {
+  background-color: $color;
+
+  .nav-main {
+    background-color: darken( $color, 5% );
+    border-bottom: 1px solid darken( $color, 10% );
+  }
+
+  .link-home {
+    svg {
+      path {
+        fill: darken( $color, 60% );
+      }
+    }
+  }
+}
+
+
+#content {
+  $color: #c8d6e5;
+  background-color: $color;
+
+  .nav-main {
+    background-color: darken( $color, 5% );
+    border-bottom: 1px solid darken( $color, 10% );
+  }
+
+  .link-home {
+    svg {
+      path {
+        fill: darken( $color, 60% );
+      }
+    }
+  }
+}
+
+#content-2 {
+  $color: #dee0ba;
+  background-color: $color;
+
+  .nav-main {
+    background-color: darken( $color, 5% );
+    border-bottom: 1px solid darken( $color, 10% );
+  }
+
+  .link-home {
+    svg {
+      path {
+        fill: darken( $color, 60% );
+      }
+    }
+  }
+}

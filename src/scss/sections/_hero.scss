@@ -1,0 +1,21 @@
+#hero {
+  // background: linear-gradient( 270deg, rgb( 75, 74, 76 ), rgb( 20, 20, 30 ) );
+  // background: linear-gradient( 270deg, rgb( 75, 74, 76 ), rgb( 44, 45, 49 ) );
+
+  .nav-main {
+    background-color: rgba( 20, 20, 30, 0.85 );
+    border-bottom: 1px solid darken( rgb( 20, 20, 30 ), 10% );
+  }
+
+  .link-home {
+    svg {
+      path {
+        fill: $yellow;
+      }
+    }
+  }
+}
+
+// #hero {
+//   @include section-colors( #add6cb );
+// }

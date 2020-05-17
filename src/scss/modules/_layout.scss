@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section, .section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+@media ( min-width: 467px ) {
+  .content-container {
+    padding: 30px;
+  }
+}
+
+@media ( min-width: 768px ) {
+  .content-container {
+    padding: 40px;
+  }
+}
+
+@media ( min-width: 1024px ) {
+  .content-container {
+    padding: 50px;
+  }
+}
+
+@media ( min-width: 1280px ) {
+  .content-container {
+    padding: 80px;
+  }
+}
+
+@media ( min-width: 1366px ) {
+  .content-container {
+    padding: 120px;
+  }
+}
+
+@media ( min-width: 1440px ) {
+  .content-container {
+    padding: 160px;
+  }
+}
