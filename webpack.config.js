@@ -36,7 +36,20 @@ module.exports = {
         test: /\.(scss)$/,
         use: allSCSS.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader', 'postcss-loader?parser=postcss-scss']
+          use: [
+            'css-loader', 
+            'sass-loader',
+            {
+              loader: 'postcss-loader',
+              options: {
+                ident: 'postcss',
+                plugins: [
+                  require('tailwindcss'),
+                  require('autoprefixer'),
+                ],
+              },
+            }
+          ]
         })
       }
     ]
