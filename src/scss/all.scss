@@ -7,3 +7,9 @@
 @import 'modules/mixins';
 @import 'modules/layout';
 @import 'modules/typography';
+@import 'modules/utilities';
+
+/* Sections */
+@import 'sections/common';
+@import 'sections/header';
+@import 'sections/main';

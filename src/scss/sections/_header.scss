@@ -1,0 +1,34 @@
+#main-header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  width: 100vw;
+  padding: 10px;
+  background-color: $grey-darker;
+
+  a {
+    display: inline-block;
+    line-height: .575;
+  }
+
+  .logo-dumsdei {
+    width: 30px;
+    fill: $yellow;
+  }
+}
+
+// @media screen and ( min-width: 1024px ) {
+//   #main-header {
+//     .logo-dumsdei {
+//       width: 35px;
+//     }
+//   }
+// }
+
+// @media screen and ( min-width: 1280px ) {
+//   #main-header {
+//     .logo-dumsdei {
+//       width: 40px;
+//     }
+//   }
+// }
