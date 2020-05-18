@@ -2,3 +2,43 @@ html, body {
   color: $grey-darker;
   background-color: $grey-lighter;
 }
+
+.bg-grey-lighter {
+  background-color: $grey-lighter;
+}
+
+.bg-grey-light {
+  background-color: $grey-light;
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+.bg-grey-dark {
+  background-color: $grey-dark;
+}
+
+.bg-grey-darker {
+  background-color: $grey-darker;
+}
+
+.text-grey-lighter {
+  color: $grey-lighter;
+}
+
+.text-grey-light {
+  color: $grey-light;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-grey-dark {
+  color: $grey-dark;
+}
+
+.text-grey-darker {
+  color: $grey-darker;
+}
