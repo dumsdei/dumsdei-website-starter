@@ -5,14 +5,22 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
 }
 
 section, .section {
   position: relative;
-  min-height: 100vh;
   overflow: hidden;
+
+  &.full-height {
+    min-height: 100vh;
+  }
 }
 
 .content-container {
