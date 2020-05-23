@@ -9,8 +9,8 @@ const allSCSS = new ExtractTextPlugin('../css/[name].css');
 try {
   if ( fs.existsSync( './webpack.config-local.js' ) ) {
     const localSettings = require( './webpack.config-local.js' );
-    console.log( `Local webpack config file found, setting devURL to "${ localSettings.localProjectDomainName }"` );
-    global.devURL = localSettings.localProjectDomainName;
+    console.log( `Local webpack config file found, setting devURL to "${ localSettings.projectDomainName }"` );
+    global.devURL = localSettings.projectDomainName;
   } else {
     console.log( `No local webpack config file found, setting devURL to ${ projectDomainName }` );
     global.devURL = projectDomainName;
