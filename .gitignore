@@ -209,3 +209,12 @@ wp-content/themes/twenty*/
 *.sqlite
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows,composer,wordpress
+
+
+###########################
+#                         #
+#   Custom ignore rules   #
+#                         #
+###########################
+
+webpack.config-local.js
