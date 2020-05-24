@@ -37,8 +37,7 @@ module.exports = {
         use: allSCSS.extract({
           fallback: 'style-loader',
           use: [
-            'css-loader', 
-            'sass-loader',
+            'css-loader',
             {
               loader: 'postcss-loader',
               options: {
@@ -48,7 +47,8 @@ module.exports = {
                   require('autoprefixer'),
                 ],
               },
-            }
+            }, 
+            'sass-loader'
           ]
         })
       }
